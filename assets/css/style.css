@@ -1,0 +1,35 @@
+.pace {
+    display: none;
+}
+
+
+.main-style {
+    min-height: 100vh;
+    background: url(../img/cover/Scrum\ board-amico.png ) no-repeat fixed;
+    background-size: 320px;
+    background-position: right bottom;
+}
+
+.container-fluid{
+    text-align: start;
+}
+body{
+    background-color:#B9F1F9;
+}
+.container-fluid{
+    background-color:;
+    border-radius: 12px;
+    margin-top: 8px;
+    padding: 12px;
+}
+.page-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    
+}
+h4{
+font-family:;
+}
+span.btn{
+    margin-top:10px ;
+}
