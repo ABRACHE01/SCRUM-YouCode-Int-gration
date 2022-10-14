@@ -20,7 +20,7 @@
 	<div id="app" class="app-without-sidebar">
 		<!-- BEGIN #content -->
 		<div id="content" class="app-content main-style ">
-			<div class="d-flex justify-content-between">
+			<div class="navbar">
 				<div>
 					<ol class="breadcrumb">
 						<li class="breadcrumb-item"><a href="javascript:;">Home</a></li>
@@ -42,11 +42,11 @@
 			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header bg-info text-white ">
 					<h1 class="modal-title fs-5" id="exampleModalLabel">Add Task</h1>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
-				<div class="modal-body">
+				<div class="modal-body ">
 					<form>
 						<div class="mb-3">
 						  <label for="Title" class="col-form-label">Title:</label>
@@ -93,7 +93,7 @@
 						</div>
 					  </form>
 				</div>
-				<div class="modal-footer">
+				<div class="modal-footer bg-info">
 					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 					<button type="button" class="btn btn-primary">Save changes</button>
 				</div>
@@ -101,11 +101,11 @@
 			</div>
 			</div>
                <!---end of modal-->
-			<div class="row ">
+			<div class="row">
 				<div class="col-sm-4 "> 
 					<div class=" pt-2 ">
-						<div class=" border bg-primary text-white rounded-top pt-2  ">
-							<h4 class="text-center ">To do (<span id="to-do-tasks-count">5</span>)</h4>
+						<div class=" border bg-primary text-white rounded-top pt-2">
+							<h4 class="text-center">To do (<span id="to-do-tasks-count">5</span>)</h4>
 
 						</div>
 						<div class="" id="to-do-tasks">
